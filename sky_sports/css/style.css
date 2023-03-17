@@ -1,0 +1,383 @@
+body {
+  background-color: rgb(216, 213, 213);
+    margin: 0 auto;
+    padding: 0;
+    height: 2000px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  .text{
+    font-size: 30px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .col-s-1 {
+      width: 8.33%;
+    }
+  
+    .col-s-2 {
+      width: 16.67%;
+    }
+  
+    .col-s-3 {
+      width: 25%;
+    }
+  
+    .col-s-4 {
+      width: 33.33%;
+    }
+  
+    .col-s-5 {
+      width: 41.65%;
+    }
+  
+    .col-s-6 {
+      width: 50%;
+    }
+  
+    .col-s-7 {
+      width: 58.33%;
+    }
+  
+    .col-s-8 {
+      width: 66.66%;
+    }
+  
+    .col-s-9 {
+      width: 75%;
+    }
+  
+    .col-s-10 {
+      width: 83.33%;
+    }
+  
+    .col-s-11 {
+      width: 91.66%;
+    }
+  
+    .col-s-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 481px) {
+    .col-m-1 {
+      width: 8.33%;
+    }
+  
+    .col-m-2 {
+      width: 16.67%;
+    }
+  
+    .col-m-3 {
+      width: 25%;
+    }
+  
+    .col-m-4 {
+      width: 33.33%;
+    }
+  
+    .col-m-5 {
+      width: 41.65%;
+    }
+  
+    .col-m-6 {
+      width: 50%;
+    }
+  
+    .col-m-7 {
+      width: 58.33%;
+    }
+  
+    .col-m-8 {
+      width: 66.66%;
+    }
+  
+    .col-m-9 {
+      width: 75%;
+    }
+  
+    .col-m-10 {
+      width: 83.33%;
+    }
+  
+    .col-m-11 {
+      width: 91.66%;
+    }
+  
+    .col-m-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .col-l-1 {
+      width: 8.33%;
+    }
+  
+    .col-l-2 {
+      width: 16.67%;
+    }
+  
+    .col-l-3 {
+      width: 25%;
+    }
+  
+    .col-l-4 {
+      width: 33.33%;
+    }
+  
+    .col-l-5 {
+      width: 41.65%;
+    }
+  
+    .col-l-6 {
+      width: 50%;
+    }
+  
+    .col-l-7 {
+      width: 58.33%;
+    }
+  
+    .col-l-8 {
+      width: 66.66%;
+    }
+  
+    .col-l-9 {
+      width: 75%;
+    }
+  
+    .col-l-10 {
+      width: 83.33%;
+    }
+  
+    .col-l-11 {
+      width: 91.66%;
+    }
+  
+    .col-l-12 {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .col-xl-1 {
+      width: 8.33%;
+    }
+  
+    .col-xl-2 {
+      width: 16.67%;
+    }
+  
+    .col-xl-3 {
+      width: 25%;
+    }
+  
+    .col-xl-4 {
+      width: 33.33%;
+    }
+  
+    .col-xl-5 {
+      width: 41.65%;
+    }
+  
+    .col-xl-6 {
+      width: 50%;
+    }
+  
+    .col-xl-7 {
+      width: 58.33%;
+    }
+  
+    .col-xl-8 {
+      width: 66.66%;
+    }
+  
+    .col-xl-9 {
+      width: 75%;
+    }
+  
+    .col-xl-10 {
+      width: 83.33%;
+    }
+  
+    .col-xl-11 {
+      width: 91.66%;
+    }
+  
+    .col-xl-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    header .container {
+      width: 71.4%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      width: 71.4%;
+    }
+  }
+  
+  header {
+    background: url("../images/sky-sports-bg.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 15px 0;
+  }
+  
+  header .container .logo img {
+    height: 29px;
+  }
+
+  header div.get {
+    margin-left: 155px;
+    text-align: end;
+  }
+
+  header div.get a {
+    color: white;
+    font-family: sans-serif;
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    header .container .logo img {
+      height: 39px;
+    }
+  }
+
+  .box{
+    position: relative;
+    height: auto ;
+  }
+/* navbar */
+  .box nav{
+    display: flex;
+    width: auto;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px 180px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul{
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+  nav ul li{
+    padding-right: 25px;
+    font-size: 20px;
+  }
+
+  nav ul li:first-child{
+    margin-left: -20px;
+  }
+
+  nav>div a img {
+    width: 30px;
+    padding-top: 5px;
+  }
+
+  nav>div a:last-child {
+    background-color: rgb(201, 24, 24);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+
+  /* top-news */
+  .top-news {
+    display: flex;
+    margin-top: 50px;
+    height: 350px;
+    border: 5px solid rgb(231, 224, 224);
+  }
+
+
+  @media (max-width: 768px) {
+    .top-news {
+      flex-wrap: wrap;
+      height: auto;
+    }
+  }
+
+  .top-text {
+    background-color: #ffffff;
+    padding-left: 20px;
+  }
+
+  .top-text .text {
+    margin: 55px 5px;
+  } 
+
+  /* line two */
+
+  .second-news{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .play img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 140px;
+    margin-left: 10px;
+  }
+
+  .sport1, .sport2, .sport3 {
+    border: 5px solid rgb(231, 224, 224);
+    width: 33.3%;
+    height: auto;
+  }
+
+  #sport1 img {
+    width: 100%;
+    height: 50%;
+  }
+

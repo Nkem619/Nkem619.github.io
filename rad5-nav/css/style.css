@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+div.nav {
+    background-image: url(../images/class\ web\ 1.jfif);
+    height: 100vh;
+    opacity: 1;
+    width: 100%;
+    position: relative;
+}
+
+div.bg-color {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.nav-bg nav {
+    display: flex;
+    gap: 200px;
+    padding-top: 10px;
+}
+
+.nav-links>div, .nav-links>ul {
+    z-index: 1;
+}
+
+img {
+    padding-top: 10px;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav.nav-links ul li:nth-child(8) {
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+div.intro{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 15px;
+    color: #ffffff;
+}

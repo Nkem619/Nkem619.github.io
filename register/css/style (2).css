@@ -1,0 +1,100 @@
+.register {
+    width: 30%;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #333;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 16px;
+}
+
+.facebook input::placeholder {
+    color: white;
+}
+
+.apple input::placeholder {
+    color: white;
+}
+
+.google {
+    width: 100%;
+    position: relative;
+}
+
+.google img {
+    width: 40px;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+
+.google input {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.facebook {
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+}
+
+.facebook img {
+    width: 25px;
+    position: absolute;
+    top: 41px;
+    left: 20px;
+}
+
+.facebook input {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+}
+
+.apple {
+    width: 100%;
+    position: relative;
+}
+
+.apple img {
+    width: 20px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.apple input {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.or {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.envelope {
+    width: 100%;
+    position: relative;
+}
+
+.envelope img {
+    width: 30px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+}
+
+.envelope input {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+}
